@@ -28,7 +28,7 @@ pip install pandas numpy matplotlib networkx seaborn python-louvain
 
 #### Code Dependencies
 
-The code relies on several Python libraries, which you can import using the following lines:
+The code relies on the following Python libraries:
 
 ```python
 import pandas as pd
@@ -45,7 +45,7 @@ from warnings import filterwarnings
 
 #### Jupyter Notebook Configuration
 
-If you're working with Jupyter Notebooks, include the following magic commands to enhance visualization and handle warnings:
+If you're working with Jupyter Notebooks, include the following commands to enhance visualization and handle warnings:
 
 ```python
 %matplotlib inline
@@ -61,49 +61,42 @@ To improve the readability of your visualizations, you can customize Matplotlib'
 plt.rcParams.update({'font.size': 10, 'font.style': 'normal', 'font.family':'serif'})
 ```
 
-
 ## Usage
 To use the project:
+
 ```bash
 Run the analysis notebook "Enron_Scandal_Notebook.ipynb"
 ```
 
-## Results
-The analysis successfully identified key figures in the Enron scandal, correlating with historical convictions. The study's temporal and community insights provided a deeper understanding of the network's evolution and the roles of different groups.
-
-## Contributing
-Contributions to enhance the project are welcome.
-
-## Authors
-This project is a collaborative effort, with contributions from the following team members:
-
-- Aaron Bailey
-- Samuele Compagnoni
-- Milica Terzic
-- Yun Kui Alessandro Hu
-
-
-## References
-
-This project draws upon various resources, including the Enron dataset, academic papers, and other relevant materials. For a more detailed overview of the project, along with comprehensive references and sources utilized in the analysis, please refer to the accompanying report file.
-
----
+For access to the dataset used in this project, please contact "yun.hu2@studbocconi.it".
 
 ## Results
-
 The analysis successfully identified key figures in the Enron scandal, correlating with historical convictions. The study's temporal and community insights provided a deeper understanding of the network's evolution and the roles of different groups.
 
 ### Visualizations
 
 #### Centrality Measures
 
-![Centrality Measures](path/to/centrality_measures.png)
+![Centrality Measures](centrality_measure.png)
 
-*Caption: Visualization depicting the centrality measures of nodes in the Enron network.*
+*Caption: Visualization depicting the centrality measures of nodes in the Enron network at the end of 2002.*
 
 #### Community Detection
 
-![Community Detection](path/to/community_detection.png)
+![Community Detection](community_detection.png)
 
-*Caption: Visualization showcasing the results of community detection analysis.*
+*Caption: Visualization showcasing the results of community detection analysis, with 5 communities.*
 
+## Authors
+This project is a collaborative effort, with contributions from the following team members:
+
+- Yun Kui Alessandro Hu
+- Aaron Bailey
+- Samuele Compagnoni
+- Milica Terzic
+
+## References
+
+This project draws upon various resources, including the Enron dataset, academic papers, and other relevant materials. For a more detailed overview of the project, along with comprehensive references and sources utilized in the analysis, please refer to the accompanying "report.pdf" file.
+
+---
