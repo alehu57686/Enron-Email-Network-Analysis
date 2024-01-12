@@ -65,7 +65,7 @@ plt.rcParams.update({'font.size': 10, 'font.style': 'normal', 'font.family':'ser
 ## Usage
 To use the project:
 ```bash
-# Run the analysis notebook "Enron_Scandal_Notebook.ipynb"
+Run the analysis notebook "Enron_Scandal_Notebook.ipynb"
 ```
 
 ## Results
@@ -80,7 +80,7 @@ This project is a collaborative effort, with contributions from the following te
 - Aaron Bailey
 - Samuele Compagnoni
 - Milica Terzic
-- Alessandro Hu Yun Kui
+- Yun Kui Alessandro Hu
 
 
 ## References
@@ -88,3 +88,22 @@ This project is a collaborative effort, with contributions from the following te
 This project draws upon various resources, including the Enron dataset, academic papers, and other relevant materials. For a more detailed overview of the project, along with comprehensive references and sources utilized in the analysis, please refer to the accompanying report file.
 
 ---
+
+## Results
+
+The analysis successfully identified key figures in the Enron scandal, correlating with historical convictions. The study's temporal and community insights provided a deeper understanding of the network's evolution and the roles of different groups.
+
+### Visualizations
+
+#### Centrality Measures
+
+![Centrality Measures](path/to/centrality_measures.png)
+
+*Caption: Visualization depicting the centrality measures of nodes in the Enron network.*
+
+#### Community Detection
+
+![Community Detection](path/to/community_detection.png)
+
+*Caption: Visualization showcasing the results of community detection analysis.*
+
